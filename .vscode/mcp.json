@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "db-tool": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/guna/FlutterDev/AppsFiles/Learn Files/ai_tool/llm-db-tool/medium",
+        "mcp_server/server.py"
+      ]
+    }
+  }
+}

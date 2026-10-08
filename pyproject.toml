@@ -1,0 +1,11 @@
+[project]
+name = "llm-db-tool"
+version = "0.1.0"
+description = "Read-only MCP server that lets AI clients query a PostgreSQL database"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "mcp[cli]>=1.27,<2",
+    "pydantic-settings>=2.14.0",
+]
