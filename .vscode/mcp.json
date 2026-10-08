@@ -9,6 +9,10 @@
         "/Users/guna/FlutterDev/AppsFiles/Learn Files/ai_tool/llm-db-tool/medium",
         "mcp_server/server.py"
       ]
+    },
+    "db-tool-http": {
+      "type": "http",
+      "url": "http://127.0.0.1:8000/mcp"
     }
   }
 }
